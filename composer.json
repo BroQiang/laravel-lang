@@ -9,7 +9,7 @@
     "autoload": {
         "psr-4": {
             "BroQiang\\LaravelLang\\": "src/"
-        },
+        }
     },
     "license": "MIT",
     "authors": [
