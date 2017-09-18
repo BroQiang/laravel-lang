@@ -17,5 +17,12 @@
             "name": "BroQiang",
             "email": "broqiang@qq.com"
         }
-    ]
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "BroQiang\\LaravelLang\\TranslationServiceProvider"
+            ]
+        }
+    }
 }
