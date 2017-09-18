@@ -70,7 +70,7 @@ class Publish extends Command
             }
         });
 
-        $type = ($force == 'f') ? 'overwrite' : 'no overwrite';
+        $type = ($force == 'f') ? 'overwrite' : 'no overwrite,if wang overwrite,add --force';
 
         $this->info("published languages <comment>({$type})</comment>: {$message}.");
     }
