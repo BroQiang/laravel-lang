@@ -28,7 +28,7 @@ class Publish extends Command
         $locale = $this->argument('locales');
         $force = $this->option('force') ? 'f' : 'n';
 
-        $sourcePath = base_path('vendor/caouecs/laravel-lang/src');
+        $sourcePath = base_path('vendor/broqiang/laravel-lang/src/lang');
         $targetPath = base_path('resources/lang/');
 
         if (!is_dir($targetPath) || !is_writable($targetPath)) {
