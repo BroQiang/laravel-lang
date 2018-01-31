@@ -10,7 +10,7 @@
 暂时只有两种语言，因为本人不需要其他语言，如果需要多语言参考 overtrue 的仓库
 
 ```shell
-composer require broqiang/laravel-lang "dev-master"
+composer require broqiang/laravel-lang "1.0.*"
 
 php artisan lang:publish zh-CN,en
 ```
